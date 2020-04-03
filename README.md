@@ -1,9 +1,14 @@
 # EP1---CRAPS-INSPER
 #nome
+
 print ('Craps Insper') 
+
 #fase que esta
+
 print ('Fase Come Out') 
+
 #lista de apostas possiveis
+
 print ('Tipos de apostas:') 
 apostas = [0]*4
 apostas[0]= '1-Pass Line Bet'
@@ -14,15 +19,20 @@ apostas[3]= '4-Twelve'
 print (apostas)
 
 #fichas que o jogador começa
+
 fichas_jogador = 100 
 print ('Fichas do Jogador: ', fichas_jogador)
 
 #qual tipo de aposta ele vai fazer
+
 tipo_de_aposta= int(input('Qual tipo de aposta?: ')) 
+
 #qual valor vai apostar
+
 valor_apostado= int(input('Qual valor sera apostado?: '))
 
 #condicional aposta 1-pass line bet
+
 if tipo_de_aposta== 1: 
     import random  
     dado_1= random.randint(1,6) 
